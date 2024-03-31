@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <a href="Student.html">
+    <img src="fcai_logo.png" alt="FCAIH">
+    </a>
+    <title>Registration page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+    <style>
+        table {
+            font-family: cursive;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+            td, th {
+            border: 3px solid #4277b0;
+            text-align: left;
+            padding: 12px;
+            text-align-last: center ;
+            }
+            
+            tr:nth-child(even) {
+            background-color: #ffffff;
+            }
+            tr:nth-child(odd) {
+            background-color: #bbe4ff;
+            }
+            tr:first-child {
+                color: #000000;
+                background-color: #4277b026;
+            }
+    </style>
+
+    </head>
+
+<body>
+    <header>
+        <div>
+        <h1 class="title1" style="    text-align: center;font-size: 44px; font-family: cursive; color: rgb(66, 119, 176);"> Courses Registration Autumn 2022 / 2023</h1>
+        <h2  style="    text-align: left;font-size: 20px; font-family: cursive; color: rgb(66, 119, 176);"> Please select courses to register this semester:</h2>
+        <div class="g" style='text-align-last: left; font-family: cursive;'>
+            <table>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Reserved</th>
+                    <th>Credit-Hours</th>
+                    <th>Select Subjects</th>
+                </tr>
+                <tr>
+                    <td>Analysis and Design of Information Systems-1</td>
+                    <td>1063</td>
+                    <td>3</td>
+                    <td><input type="checkbox" checked="" name="SelectedSubjects[]" value="1530" onchange="handleClick(this);"></td>
+                </tr>
+                <tr>
+                    <td>Information Systems Security</td>
+                    <td>636</td>
+                    <td>3</td>
+                    <td><input type="checkbox" checked="" name="SelectedSubjects[]" value="1530" onchange="handleClick(this);"></td>
+                </tr>
+                <tr>
+                    <td>Project Management	</td>
+                    <td>928</td>
+                    <td>3</td>
+                    <td><input type="checkbox" checked="" name="SelectedSubjects[]" value="1530" onchange="handleClick(this);"></td>
+                </tr>
+                <tr>
+                    <td>Artificial Intelligence	</td>
+                    <td>1030</td>
+                    <td>3</td>
+                    <td><input type="checkbox" checked="" name="SelectedSubjects[]" value="1530" onchange="handleClick(this);"></td>
+                </tr>
+                <tr>
+                    <td>Database Systems 2</td>
+                    <td>1016</td>
+                    <td>3</td>
+                    <td><input type="checkbox" checked="" name="SelectedSubjects[]" value="1530" onchange="handleClick(this);"></td>
+                </tr>
+                <tr>
+                    <td>Human Rights</td>
+                    <td>457</td>
+                    <td>2</td>
+                    <td><input type="checkbox" checked="" name="SelectedSubjects[]" value="1530" onchange="handleClick(this);"></td>
+                </tr>
+                <tr>
+                    <td>Multimedia</td>
+                    <td>935</td>
+                    <td>3</td>
+                    <td><input type="checkbox" checked="" name="SelectedSubjects[]" value="1530" onchange="handleClick(this);"></td>
+                </tr>
+                <tr>
+                    <td>Concepts of Programming Languages</td>
+                    <td>478</td>
+                    <td>3</td>
+                    <td><input type="checkbox" checked="" name="SelectedSubjects[]" value="1530" onchange="handleClick(this);"></td>
+                </tr>
+                <tr>
+                    <td>Computer Organization</td>
+                    <td>363</td>
+                    <td>3</td>
+                    <td><input type="checkbox" checked="" name="SelectedSubjects[]" value="1530" onchange="handleClick(this);"></td>
+                </tr>
+                <tr>
+                    <td>Professional Ethics</td>
+                    <td>755</td>
+                    <td>3</td>
+                    <td><input type="checkbox" checked="" name="SelectedSubjects[]" value="1530" onchange="handleClick(this);"></td>
+                </tr>
+                <tr>
+                    <td>Data Storage and Retrieval</td>
+                    <td>910</td>
+                    <td>3</td>
+                    <td><input type="checkbox" checked="" name="SelectedSubjects[]" value="1530" onchange="handleClick(this);"></td>
+                </tr>
+                <tr>
+                    <td>Data Mining</td>
+                    <td>438</td>
+                    <td>3</td>
+                    <td><input type="checkbox" checked="" name="SelectedSubjects[]" value="1530" onchange="handleClick(this);"></td>
+                </tr>
+                <tr>
+                    <td>Programming – 3</td>
+                    <td>81</td>
+                    <td>3</td>
+                    <td><input type="checkbox" checked="" name="SelectedSubjects[]" value="1530" onchange="handleClick(this);"></td>
+                </tr>
+            </table>
+        <div>
+            <input type="button"   onclick="window.location.href='courses.html';" value="Confirm " style="font-family: cursive; background-color:  #4277b0; color: white; text-align-last: center;"/>
+        </div>
+        </div>
+        <p class="para-2" style="font-size: 38px; font-family: cursive;"> 
+            <a href="login.html">Sign Out </a> 
+            
+           </p>
+    </header>
+    </body>

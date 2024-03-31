@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    font-family:'Press Start 2P','Times New Roman', Times, serif;
+    font-size: x-small;
+}
+
+
+.Background{
+    height:100%;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Grey1.JPEG);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+#Logo
+img {
+width: 125px;
+  height: 100px;
+  float: left;
+  margin-left: 45px;
+  margin-top: 60px;
+}
+.Register_form{
+    width: 580px;
+    height: 625px;
+    border-radius: 30px;
+    position:relative;
+    margin:10% auto;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(reg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding:15px;
+    overflow: hidden;
+
+}
+.buttonbox1{
+    width: 240px;
+    height: 50px;
+    margin: 100px 50px;
+    position: relative;
+    box-shadow: 0 0 35px 9px rgba(238, 240, 119, 0.363);
+    border-radius: 30px;
+    
+    
+}
+.toggle_button{
+    padding: 20px 22px ;
+    cursor:pointer;
+    background:transparent;
+    border:none;
+    outline:none;
+    position: relative;
+    font-size: 12px;
+    font-weight: 900;
+    font-style: italic;
+    
+
+}
+#btn1{
+    
+    top:0;
+    left:0;
+    position: absolute;
+    width: 130px;
+    height: 100%;
+    background:linear-gradient(to right,rgb(116, 116, 116) ,rgba(181, 199, 115, 0.747));
+    border-radius: 30px;
+    transition:0.6s;
+}
+.btntxt{
+    color: rgb(164, 209, 0);
+    font-size: 10px;
+}
+.social_icons{
+    margin-left: 50px ;
+    margin-top: 350px;
+    padding:auto;
+
+}
+.social_icons img {
+    width:50px;
+    margin:auto;
+    cursor:pointer;
+    border-radius: 100px;
+
+}
+.userinputs{
+    padding-top: 25px;
+    top: 180px;
+    margin-left: 0;
+    position:absolute;
+    width: 280px;
+    transition: .5s;
+    text-align:center;
+    
+
+
+}
+.inputarea{
+    width:90%;
+    padding:12px 20px;
+    margin: 15px 0 15px -115px;
+    border: 1px dashed rgb(174, 235, 94);
+    outline: none;
+    background:linear-gradient(to right,rgb(116, 116, 116) ,rgba(181, 199, 115, 0.747));
+    text-align:center;
+    border-radius: 50px;
+    font-size: medium;
+    color: darkmagenta;
+    
+}
+::placeholder {
+    color: rgba(24, 24, 24, 0.493); }
+.loginbtn,.regbtn
+{
+    width: 50%;
+    height: 70%;
+    padding: 25px 30px;
+    cursor: pointer;
+    display: inline-block;
+    background: linear-gradient(to right,rgb(116, 116, 116) ,rgba(181, 199, 115, 0.747));
+    color:rgb(164, 209, 0) ; 
+    border-radius: 30px;
+}
+.loginbtn
+{
+    margin-bottom: 150px;
+    
+}
+.regbtn
+{
+    margin: 18px 50px 0 0;
+}
+
+
+#login{
+    left: 150px;
+}
+#register{
+    left: 750px;
+}

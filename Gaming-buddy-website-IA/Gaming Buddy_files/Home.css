@@ -1,0 +1,177 @@
+﻿*{
+  margin:0;
+  padding:0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+#Navigation{
+  width: 100%;
+  background-size: cover;
+}
+nav{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  line-height: 50px;
+}
+nav ul{
+  float: left;
+  margin-left: 80px;
+}
+nav ul li{
+  list-style-type:none;
+  display: inline-block;
+  transition: 0.7s all;
+}
+nav ul li:hover{
+  background-color:#daa520;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 90px;
+  font-family:cursive;
+}
+#Logo
+img {
+width: 11%;
+  height: 100px;
+  float: left;
+  margin-left: 18px;
+}
+.head1{
+  color: #daa520;
+  position: relative;
+  margin-left: 600px;
+  top: 100px;
+  font-size: 33px;
+  font-family: cursive;
+}
+.para1{
+  position:relative;
+  margin-left: 600px;
+  top: 100px;
+  color: #fff;
+  font-size: 20px;
+}
+.cover
+img{
+  width: 30%;
+  height: 300px;
+  margin-top: 20px;
+  float:left;
+  margin-left: 150px;
+  border: 4px solid#daa520;
+}
+
+.head2{
+  color: #daa520;
+  position: absolute;
+  left: 25px;
+  top: 720px;
+  font-size: 33px;
+  font-family: cursive;
+}
+.para2{
+  position: absolute;
+  left: 25px;
+  top: 770px;
+  color: #fff;
+  font-size: 18px;
+}
+.cover2
+img{
+  width: 30%;
+  height: 300px;
+  margin-top: 420px;
+  float:right;
+  margin-right: 200px;
+  border: 4px solid#daa520;
+}
+
+.head3{
+  color: #daa520;
+  position: absolute;
+   right: 480px;
+  top: 1170px;
+  font-size: 26px;
+  font-family: cursive;
+}
+.para3{
+  position: absolute;
+  right: 85px;
+  top: 1220px;
+  color: #fff;
+  font-size: 18px;
+}
+.cover3
+img{
+  width: 30%;
+  height: 300px;
+  margin-top: 620px;
+  float:left;
+  margin-left: 150px;
+  border: 4px solid#daa520;
+}
+.head4{
+  color: #daa520;
+  position: absolute;
+  left: 70px;
+  top: 1700px;
+  font-size: 33px;
+  font-family: cursive;
+}
+.para4{
+  position: absolute;
+ left: 70px;
+  top: 1750px;
+  color: #fff;
+  font-size: 20px;
+}
+.cover4
+img{
+  width: 30%;
+  height: 300px;
+  margin-top: 600px;
+  float:right;
+  margin-right: 200px;
+  border: 4px solid#daa520;
+}
+.head5{
+  color: #daa520;
+  position: absolute;
+   right: 435px;
+  top: 2080px;
+  font-size: 27px;
+  font-family: cursive;
+}
+.para5{
+  position: absolute;
+  right: 85px;
+  top: 2130px;
+  color: #fff;
+  font-size: 18px;
+}
+.cover5
+img{
+  width: 30%;
+  height: 300px;
+  margin-top: 620px;
+  float:left;
+  margin-left: 150px;
+  border: 4px solid#daa520;
+}
+#ad
+img {
+  width: 50%;
+  height: 300px;
+  margin-top: 170px;
+  float:left;
+  margin-left: 330px;
+  border: 6px solid#fff;
+}
+#p6{
+  position: absolute;
+  top: 2750px;
+  color: #fff;
+  font-size: 20px;
+}

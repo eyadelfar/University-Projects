@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- saved from url=(0082)https://zt8baa38zs4vpzdzqqrabq.on.drv.tw/Html/reg%20last%20edit/Registeration.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     
+     <title>Registeration</title>
+     <link rel="stylesheet" href="./Registeration_files/Registeration.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="./Registeration_files/css2" rel="stylesheet">
+    </head>
+    <body>
+        <div class="Background">
+            <div id="Logo">
+                <a href="https://zt8baa38zs4vpzdzqqrabq.on.drv.tw/Html/Home/Home.htm">
+            <img src="./Registeration_files/logo.jpg" title="Return to homepage" alt="Gaming Buddy">
+                </a>
+               </div>
+            <div class="Register_form">
+                <div class="buttonbox1">
+                    <div id="btn1"></div>
+                    <button type="button" class="toggle_button" onclick="login()"><span class="btntxt">Log in</span></button>
+                    <button type="button" class="toggle_button" onclick="register()"><span class="btntxt">Register</span></button>
+                </div>
+                <div class="social_icons">
+                    <img src="./Registeration_files/fbbb.png" alt="login or with facebook" title="sign in with facebook">
+                    <img src="./Registeration_files/ggl.png" alt="login or with google" title="sign in with google">
+                </div>
+                
+            <form id="login" class="userinputs">
+                <input type="text" class="inputarea" placeholder="Enter Username" required="" maxlength="12" minlength="4">
+                <input type="password" class="inputarea" placeholder="Enter Password" required="" maxlength="16" minlength="8">
+                <br>
+                <button type="submit" class="loginbtn">
+                <a style="text-decoration: none;" href="https://zt8baa38zs4vpzdzqqrabq.on.drv.tw/Html/Home/Home.htm">   Log in  </a>       
+                </button>
+            </form>
+            <form id="register" class="userinputs">
+                <input type="text" class="inputarea" placeholder="Enter Username" required="" maxlength="12" minlength="4"> 
+                <input type="email" class="inputarea" placeholder="Enter Email Address" title="enter email address" required="">
+                <input type="password" class="inputarea" placeholder="Enter Password" required="" maxlength="16" minlength="8">
+                <input type="password" class="inputarea" placeholder="Confirm Password" maxlength="16" minlength="8">
+                <br>
+                <button type="submit" class="regbtn">
+                <a style="text-decoration: none;" href="https://zt8baa38zs4vpzdzqqrabq.on.drv.tw/Html/Home/Home.htm">
+                    
+                    Register</a>
+            </button>
+                
+            </form>
+            
+           
+
+            </div>
+        </div>
+        <script async="" src="./Registeration_files/js"></script><script>
+            var x = document.getElementById("login");
+            var y = document.getElementById("register");
+            var z = document.getElementById("btn1");
+            function register(){
+                x.style.left = "-600px";
+                y.style.left = "150px";
+                z.style.left = "110px";
+                 }
+                 function login(){
+                x.style.left = "150px";
+                y.style.left = "700px";
+                z.style.left = "0";
+                 }
+        </script>
+
+    <script src="./Registeration_files/wd.js.download"></script>
+</body></html>
